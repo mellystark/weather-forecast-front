@@ -1,0 +1,92 @@
+/* WeatherApp.css */
+
+.appContainer {
+    background-image: url('./assets/bluesky.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 70px;
+    width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-between;
+    width: 100%;
+}
+
+.icon {
+    width: 160px;
+    height: 160px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.details {
+    text-align: left;
+    margin-left: -120px;
+    margin-top: 100px;
+    flex: 1;
+    color: black;
+}
+
+.additionalInfo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px; /* Bu, kutuların büyük kutunun içine girmesini sağlar */
+}
+
+.smallBox {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    position: relative; /* Bu, küçük kutuların konumunu değiştirebilmek için gerekli */
+    top: 30px; /* Yukarıda çakışması için yukarı doğru kaydırma */
+    color: black;
+    margin: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: transparent;
+  }
+  .background {
+    background-image: url('./assets/bluesky.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100vh; 
+    padding: 20px;
+  }
+  
